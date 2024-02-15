@@ -10,12 +10,12 @@ struct ContentView: View {
              print("Button pressed")
                  showDetails.toggle()
              } label: {
-                 Text("Press Me")
-             .padding(20)
+                 Text("Open me!")
+             .padding(10)
        }
        .contentShape(Rectangle())
         if showDetails {
-                Text("You should")
+                Text("Thanks for opening me")
        }
 
 
