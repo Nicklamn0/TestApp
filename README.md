@@ -1,2 +1,2 @@
 # TestApp
-My test app. Made using Swifty and SwiftUI.
+My test app. Made using SparkCode Swift and SwiftUI.
