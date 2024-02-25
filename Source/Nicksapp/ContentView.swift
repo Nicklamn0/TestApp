@@ -3,12 +3,11 @@ import SwiftUI
 struct ContentView: View {
     let ts: String = "apple-magnifier://"
     let sl: String = "sileo://"
-    let zb: String = "zbra://"
-    let set: String = "com.apple.preferences://"
+    let tips: String = "tips://"
     let myapp: String = "nicksapp://"
 
     var body: some View {
-       Text("Open Apps!\n")
+       Text("Open Apps (this is test)!\n")
        Text("Needed if they UI Cache\n")
        Text("Lmao swift is awesome\n")
        Text("ONLY works with URL Schemes enable!\n")
@@ -22,13 +21,13 @@ struct ContentView: View {
     UIApplication.shared.open(url)
 }
        }
-       Button("Open Zebra\n") {
-             if let url = URL(string: zb) {
+       Button("Open Sileo\n") {
+             if let url = URL(string: sl) {
     UIApplication.shared.open(url)
 }
        }
-       Button("Open Settings") {
-             if let url = URL(string: set) {
+       Button("Open Tips\n") {
+             if let url = URL(string: tips) {
     UIApplication.shared.open(url)
 }
        }
