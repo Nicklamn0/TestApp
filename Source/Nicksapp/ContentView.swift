@@ -21,11 +21,6 @@ struct ContentView: View {
     UIApplication.shared.open(url)
 }
        }
-       Button("Open Sileo\n") {
-             if let url = URL(string: sl) {
-    UIApplication.shared.open(url)
-}
-       }
        Button("Open Tips\n") {
              if let url = URL(string: tips) {
     UIApplication.shared.open(url)
